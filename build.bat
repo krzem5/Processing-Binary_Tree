@@ -1,1 +1,3 @@
-start "" "projects/Processing-Binary_Tree/index/index.pde"
+@echo off
+cls
+python build.py %*
