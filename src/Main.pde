@@ -1,6 +1,6 @@
 Tree tree;
 void setup() {
-  size(600,400);
+  size(1920,1080);
   tree=new Tree(loadJSONObject("tree.json"));
 }
 void draw() {
