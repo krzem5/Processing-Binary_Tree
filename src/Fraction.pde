@@ -1,13 +1,23 @@
-class Fraction {
-  int nom, denom;
-  Fraction(int nom, int denom) {
-    this.nom=nom;
-    this.denom=denom;
-  }
-  float get() {
-    return (float)this.nom/this.denom;
-  }
-  Fraction clone() {
-    return new Fraction(this.nom,this.denom);
-  }
+class Fraction{
+	int n;
+	int dn;
+
+
+
+	Fraction(int n,int dn){
+		this.n=n;
+		this.dn=dn;
+	}
+
+
+
+	float get(){
+		return (float)this.n/this.dn;
+	}
+
+
+
+	Fraction clone(){
+		return new Fraction(this.n,this.dn);
+	}
 }
